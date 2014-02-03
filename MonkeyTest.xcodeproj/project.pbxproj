@@ -547,7 +547,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonkeyTest/MonkeyTest-Prefix.pch";
 				INFOPLIST_FILE = "MonkeyTest copy-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jenkins/workspace/MonkeyTest/,
+				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "MonkeyTest copy";
 				WRAPPER_EXTENSION = app;
@@ -563,7 +566,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonkeyTest/MonkeyTest-Prefix.pch";
 				INFOPLIST_FILE = "MonkeyTest copy-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Jenkins/workspace/MonkeyTest/,
+				);
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "MonkeyTest copy";
 				WRAPPER_EXTENSION = app;
