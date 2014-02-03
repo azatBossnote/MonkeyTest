@@ -17,6 +17,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _text.accessibilityLabel = @"tvOut";
+    _text.isAccessibilityElement = YES;
+    _button.isAccessibilityElement=YES;
+    _button.accessibilityLabel=@"OK";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,4 +30,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)click:(id)sender {
+    int rand=arc4random_uniform(2);
+    if(rand==0){
+        _text.text=@"Hello!";
+    }else{
+        _text.text=@"";
+    }
+}
 @end
