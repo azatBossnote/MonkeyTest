@@ -37,6 +37,8 @@
 		AA3D6CFB189FC59C0064F2EF /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D6CFA189FC59C0064F2EF /* libstdc++.6.0.9.dylib */; };
 		AA3D6CFD189FC5A60064F2EF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D6CFC189FC5A60064F2EF /* libsqlite3.dylib */; };
 		AA3D6D03189FC6050064F2EF /* libMonkeyTalk-2.0.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3D6D02189FC6050064F2EF /* libMonkeyTalk-2.0.1.a */; };
+		AABD0BE418A0D0C3009EA684 /* build.xml in Resources */ = {isa = PBXBuildFile; fileRef = AABD0BE318A0D0C3009EA684 /* build.xml */; };
+		AABD0BE618A0D0DC009EA684 /* sc1.mt in Resources */ = {isa = PBXBuildFile; fileRef = AABD0BE518A0D0DC009EA684 /* sc1.mt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		AA3D6CFA189FC59C0064F2EF /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		AA3D6CFC189FC5A60064F2EF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		AA3D6D02189FC6050064F2EF /* libMonkeyTalk-2.0.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libMonkeyTalk-2.0.1.a"; sourceTree = "<group>"; };
+		AABD0BE318A0D0C3009EA684 /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		AABD0BE518A0D0DC009EA684 /* sc1.mt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sc1.mt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		AA3D6C9D189FC35D0064F2EF = {
 			isa = PBXGroup;
 			children = (
+				AABD0BE518A0D0DC009EA684 /* sc1.mt */,
+				AABD0BE318A0D0C3009EA684 /* build.xml */,
 				AA3D6CAF189FC35D0064F2EF /* MonkeyTest */,
 				AA3D6CD1189FC35E0064F2EF /* MonkeyTestTests */,
 				AA3D6CA8189FC35D0064F2EF /* Frameworks */,
@@ -293,9 +299,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AABD0BE618A0D0DC009EA684 /* sc1.mt in Resources */,
 				AA3D6CC0189FC35D0064F2EF /* Main_iPad.storyboard in Resources */,
 				AA3D6CC5189FC35D0064F2EF /* Images.xcassets in Resources */,
 				AA3D6CBD189FC35D0064F2EF /* Main_iPhone.storyboard in Resources */,
+				AABD0BE418A0D0C3009EA684 /* build.xml in Resources */,
 				AA3D6CB4189FC35D0064F2EF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
